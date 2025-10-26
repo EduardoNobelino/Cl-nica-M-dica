@@ -1,0 +1,397 @@
+.body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #60a0ff;
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-between;
+}
+
+.texto-header {
+    width: 100%;
+    max-width: 600px;
+    flex: 1;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    font-style: arial;
+    hyphens: auto;
+    margin-left: 20px;
+}
+
+.texto-header h1 {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.texto-header mark {
+    background-color: #ffffff; /* Cor de fundo amarela */
+    color: #2b2b2b;              /* Cor do texto preta */
+    padding: 0 5px;           /* Espaçamento interno */
+    border-radius: 8px;       /* Bordas arredondadas */
+} 
+
+.texto-header3 {
+    width: 100%;
+    max-width: 400px;
+    font-size: 23px;
+    flex: 1;
+    text-align: center;
+    line-height: 1.5;
+    font-style: arial;
+    hyphens: auto;
+    margin-left: 80px;
+}
+
+.texto-header3 p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.text-content3 h3 {
+    text-align: justify;         /* Centraliza o título */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    hyphens: auto;
+    line-height: 1.6;
+    flex: 1;
+    color: #525252;
+}
+
+.text-content1 p {
+    text-align: justify;  
+    font-size: 23px;      /* Justifica o texto (bordas retas) */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;           /* Espaçamento entre linhas para melhor leitura */
+    text-indent: 20px;          /* Recuo no início de cada parágrafo */
+    margin: 40px;             /* Espaço lateral opcional */
+    color: #333;
+}
+
+.menu-vertical h3 {
+    font-size: 22px;         /* Aumenta o tamanho da fonte dos links */
+    display: block;          /* Garante que cada link ocupe uma linha inteira */    
+    color: #ffffff;            /* Cor do texto */
+    font-style: arial;
+}
+
+.imagem-header {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-header img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.imagem-header2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagem-header2 img {
+    width: 100%;              /* Faz a imagem ocupar toda a largura disponível */
+    max-width: 800px;         /* Define um limite máximo de largura */
+    height: auto;             /* Mantém a proporção da imagem */
+    border-radius: 10px;      /* Arredonda os cantos */
+}
+
+.imagem-header3 {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.imagem-header3 img {
+    max-width: 90%;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.imagem-header4 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-header4 img {
+    max-width: 100%;
+    width: 1300px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #60a0ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #60a0ff;
+    font-family: Arial, sans-serif;
+}
+
+.content2 {
+    text-align: center;
+}
+
+.content p {
+    border-bottom: 2px solid #ccc; /* linha cinza abaixo do header */
+}
+
+.text-content2 h2 {
+    text-align: center;         /* Centraliza o título */
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.text-content2 p {
+    color: #333;
+    text-align: justify;  
+    font-size: 23px;      /* Justifica o texto (bordas retas) */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;           /* Espaçamento entre linhas para melhor leitura */
+    text-indent: 20px;          /* Recuo no início de cada parágrafo */
+    margin: 0 40px;             /* Espaço lateral opcional */
+}
+
+
+.table {
+    width: 75%;    
+    text-align: center; 
+    margin: 0 auto;
+    border: solid 1px #878787;
+    -webkit-box-shadow: 10px 12px 6px 5px rgba(0,0,0,0.2); 
+    box-shadow: 10px 12px 6px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.table th {
+    background-color: #60a0ff;
+    color: white;
+}
+.table tfoot td {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    background-color: #f2f2f2;      /* Cor de fundo do rodapé */
+    padding: 20px 0;                /* Espaço acima e abaixo do conteúdo */
+}
+
+.footer p {
+    text-align: center;             /* Centraliza o texto final do rodapé */
+    margin-top: 20px;               /* Espaço acima do parágrafo */
+    font-size: 14px;                /* Tamanho da fonte do texto */
+    color: #555;                    /* Cor do texto (cinza escuro) */
+}
+
+.footer-container {
+    display: flex;                  /* Ativa o Flexbox para alinhar os blocos lado a lado */
+    justify-content: space-between;/* Espaço igual entre os blocos */
+    align-items: flex-start;        /* Alinha os blocos ao topo */
+    max-width: 1000px;              /* Largura máxima do rodapé */
+    margin: 0 auto;                 /* Centraliza horizontalmente */
+    padding: 0 20px;                /* Espaço interno nas laterais */
+}
+
+.footer-container > div {
+    flex: 1;                        /* Cada bloco ocupa o mesmo espaço */
+    padding: 10px;                  /* Espaço interno em cada bloco */
+}
+
+.footer-container h4 {
+    margin-bottom: 10px;            /* Espaço abaixo do título */
+    font-size: 16px;                /* Tamanho da fonte do título */
+    color: #333;                    /* Cor do título (cinza escuro) */
+}
+
+.footer-container ul {
+    list-style: none;               /* Remove os pontinhos da lista */
+    padding: 0;                     /* Remove o espaçamento interno */
+    margin: 0;                      /* Remove o espaçamento externo */
+}
+
+.footer-container ul li {
+    margin-bottom: 8px;             /* Espaço entre os itens da lista */
+}
+
+.footer-container ul li a {
+    text-decoration: none;          /* Remove o sublinhado dos links */
+    color: #666;                    /* Cor dos links (cinza médio) */
+    transition: color 0.3s;         /* Suaviza a mudança de cor ao passar o mouse */
+}
+
+.footer-container ul li a:hover {
+    color: #000;                    /* Cor preta ao passar o mouse sobre o link */
+}
+
+.text-content {
+    max-width: 800px;               /* Limita a largura máxima do conteúdo */
+    margin: 0 auto;                 /* Centraliza o conteúdo horizontalmente */
+    padding: 20px;                  /* Espaçamento interno */
+    font-size: 22px;                /* Tamanho da fonte */
+    line-height: 1.6;               /* Espaçamento entre linhas */
+    color: #333;                  /* Cor do texto (cinza escuro) */
+    text-align: justify;            /* Justifica o texto */
+    hyphens: auto;                  /* Hifenização automática */
+    font-family: Arial, sans-serif; /* Fonte Arial */
+}
+
+.content4 {
+    background-color: #f9f9f9;      /* Cor de fundo clara */
+    padding: 40px 0;                /* Espaço acima e abaixo do conteúdo */
+}
+
+.content4-container {
+    display: flex;                  /* Ativa o layout horizontal */
+    justify-content: space-between; /* Espaço entre os blocos */
+    align-items: flex-start;        /* Alinha ao topo */
+    gap: 40px;                      /* Espaço entre texto e formulário */
+    padding: 20px 40px;             /* Espaço interno */
+}
+
+.text-content4 {
+    flex: 1;                        /* Ocupa metade do espaço */
+    min-width: 300px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.text-content4 h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #60a0ff;
+    max-width: 140px;
+}
+
+.text-content4 p {
+    font-size: 14px;
+    max-width: 550px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text-content4 h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #60a0ff;
+}
+
+.text-content4 ul, li {
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+.form-contacts {
+    flex: 1;                        /* Ocupa metade do espaço */
+    min-width: 300px;
+}
+
+.form-contacts form {
+    display: flex;
+    flex-direction: column;        /* Organiza os campos verticalmente */
+}
+
+.form-contacts fieldset {
+    border: none;                  /* Remove borda padrão */
+    margin-bottom: 15px;           /* Espaço entre campos */
+}
+
+.form-contacts label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-contacts input,
+.form-contacts textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-contacts button:nth-of-type(1) {
+    padding: 10px;
+    background-color: #60a0ff;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-contacts button:nth-of-type(2) {
+    padding: 10px;
+    background-color: #ff6060;
+    margin-left: 18px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 350px;
+    margin-left: 25%;
+    margin-top: 8px;
+}
+
+.form-contacts button:hover {
+    background-color: #3c7cd9;
+}
